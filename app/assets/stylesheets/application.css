@@ -28,11 +28,20 @@ body {
 header {
 	background-color: #190707;
 	color: #DBA901;
-	padding: 3%;
+	padding-top: 3%;
+	padding-bottom: 10%;
+	padding-right: 5%;
+	padding-left: 5%;
+
+	background-image: url(consuegra.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 
 nav ul {
+	text-align: right;
 	list-style:none;
+	margin-top:10%;
 	margin-left:0;
 	padding-left:0;
 }
@@ -41,7 +50,7 @@ nav li {
 	display:inline;
 }
 
-header a:visited {color: #F5ECCE;}
+header a:visited {color: black;}
 header a:hover {color: #fff;}
 header a:focus {color: #fff;}
 header a:active {color: blue;}

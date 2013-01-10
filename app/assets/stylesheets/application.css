@@ -12,14 +12,14 @@
  *= require_tree .
  */
 html {
-	background-color: #F5ECCE
+	background-color: #93abcc
 }
 
 body {
 	font-family: 'Donegal One', serif;
 	width: 70%;
 	margin: 10% auto;
-	background-color: #DBA901;
+	background-color: #754e2f;
 	padding: 20px 40px;
 	border: 10px solid #190707;
 }
@@ -50,6 +50,7 @@ nav li {
 	display:inline;
 }
 
+header a:link {color: white;}
 header a:visited {color: black;}
 header a:hover {color: #fff;}
 header a:focus {color: #fff;}
@@ -80,3 +81,11 @@ tbody tr {
 tbody tr:nth-child(even) {
 	background-color: #BDBDBD;
 }
+
+a:link {color: white;}
+a:visited {color: black;}
+a:hover {color: #fff;}
+a:focus {color: #fff;}
+a:active {color: blue;}
+
+

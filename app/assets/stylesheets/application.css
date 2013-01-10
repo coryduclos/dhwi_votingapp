@@ -12,10 +12,11 @@
  *= require_tree .
  */
 html {
-	background-color: white
+	background-color: #F5ECCE
 }
 
 body {
+	font-family: 'Donegal One', serif;
 	width: 70%;
 	margin: 10% auto;
 	background-color: #DBA901;

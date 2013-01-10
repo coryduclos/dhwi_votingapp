@@ -38,7 +38,8 @@ header {
 	background-size: cover;
 }
 
-nav ul {
+nav ul,
+footer ul {
 	text-align: right;
 	list-style:none;
 	margin-top:10%;
@@ -46,7 +47,8 @@ nav ul {
 	padding-left:0;
 }
 
-nav li {
+nav li,
+footer ul {
 	display:inline;
 }
 

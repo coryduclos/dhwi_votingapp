@@ -24,10 +24,11 @@ body {
 	border: 10px solid #190707;
 }
 
-h1 {
+
+header {
 	background-color: #190707;
 	color: #DBA901;
-	padding: 5%;
+	padding: 3%;
 }
 
 nav ul {
@@ -36,8 +37,37 @@ nav ul {
 	padding-left:0;
 }
 
-header a: link {color: #fff;}
-header a: visited {color: #fff;}
-header a: hover {color: #fff;}
-header a: focus {color: #fff;}
-header a: active {color: #fff;}
+nav li {
+	display:inline;
+}
+
+header a:visited {color: #F5ECCE;}
+header a:hover {color: #fff;}
+header a:focus {color: #fff;}
+header a:active {color: blue;}
+
+header h1 {
+	font-size: 36px;
+}
+
+table {
+	width: 100%;
+}
+
+thead th {
+	border-bottom: 5px solid black;
+	text-align:left;
+}
+
+th,
+td {
+	padding: 5px 0;
+}
+
+tbody tr {
+	background-color: #F5ECCE;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #BDBDBD;
+}

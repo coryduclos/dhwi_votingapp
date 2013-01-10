@@ -2,17 +2,27 @@
 <html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Donegal+One' rel='stylesheet' type='text/css'>
-	<link href='about.html' About>
-  <title>Dhwi</title>
+	
+  <title>Class Voting System</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<% flash.each do |name, msg| %>
+	<header>
+		<h1>Class Voting System</h1>
+		<nav>
+			<ul>
+  				<li><%= link_to "New Topic", new_topic_path %></li>
+  				<li><a href="About">About</a></li>
+  				
+  		</nav>
+  		</ul>
+	</header>
+	<% flash.each do |name, msg| %>
 	<div><%= msg %></div>
-<% end %>
-<%= yield %>
+	<% end %>
+	<%= yield %>
 
 </body>
 </html>
